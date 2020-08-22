@@ -12,7 +12,7 @@ def folder():
 				os.removedirs(dir)
 		else:
 			pass
-	print(str(del_folder) + " folders deleted")
+	print(str(del_folder) + " empty folders deleted")
 
 
 
@@ -28,7 +28,7 @@ def file():
 				del_file += 1
 			else:
 				pass
-	print(str(del_file) + ' files deleted')
+	print(str(del_file) + ' empty files deleted')
 	
 
 def usage():
